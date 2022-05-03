@@ -13,7 +13,7 @@ describe('index.js', function () {
     });
 
     describe('destructivelyAppendCat(name)', function () {
-      it('appends a cat to the end of the cats array', function () {
+      it('appends a cat to the end of the cats array', function () {xcontext
         destructivelyAppendCat('Ralph');
 
         expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield", "Ralph"]);
